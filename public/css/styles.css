@@ -27,3 +27,9 @@ p {
 .logins {
   padding: 0px 22px;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
