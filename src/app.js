@@ -14,6 +14,7 @@ dotenv.config({ path: "./config/config.env" });
 
 //Passport config
 require("./passport/passport")(passport);
+require("./passport/passportfb")(passport);
 
 require("./database/dbconnect");
 

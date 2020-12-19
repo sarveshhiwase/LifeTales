@@ -8,8 +8,14 @@
     "startdev": "cross-env NODE_ENV=production node src/app",
     "dev": "cross-env NODE_ENV=development nodemon src/app"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "lifetales",
+    "nodejs",
+    "passport",
+    "googleauth",
+    "facebookauth"
+  ],
+  "author": "Sarvesh Hiwase",
   "license": "ISC",
   "dependencies": {
     "connect-mongo": "^3.2.0",
@@ -22,6 +28,7 @@
     "mongoose": "^5.11.8",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
     "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {

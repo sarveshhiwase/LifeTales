@@ -19,3 +19,11 @@ p {
 .img-small {
   width: 180px;
 }
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.logins {
+  padding: 0px 22px;
+}
