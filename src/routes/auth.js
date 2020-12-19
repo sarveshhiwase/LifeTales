@@ -32,7 +32,8 @@ router.get(
 // @desc Google AUth Logout
 // @route GET /auth/logout
 router.get("/logout", (req, res) => {
-  req.logout();
+  req.session = null;
+  // req.logout();
   res.redirect("/");
 });
 
