@@ -92,6 +92,7 @@ app.use("/stories", require("./routes/stories"));
 //Static
 app.use(express.static("public"));
 
+//Listen
 app.listen(port, () => {
   cl(`Server Running on ${port} in ${process.env.NODE_ENV}`);
 });
