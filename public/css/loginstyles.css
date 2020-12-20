@@ -76,3 +76,9 @@ input:-webkit-autofill:focus {
   box-shadow: 0 0 0px 1000px #f8f4e5 inset;
   transition: background-color 5000s ease-in-out 0s;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-us {
+    padding: 40px 25px;
+  }
+}
