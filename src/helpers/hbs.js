@@ -1,8 +1,8 @@
-const moment = require("moment");
+const moment = require("moment-timezone");
 
 module.exports = {
   formatDate: function (date, format) {
-    return moment(date).format(format);
+    return moment(date).tz('Asia/Kolkata').format(format);
   },
   truncate: function (str, len) {
     if (str.length > len && str.length > 0) {
